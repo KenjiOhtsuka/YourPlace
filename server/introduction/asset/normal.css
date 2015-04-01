@@ -1,0 +1,13 @@
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid;
+}
+.pure-img {
+	width: 100%;
+	max-width: 300px;
+}
+th, td {
+	padding: 0.5em 1em;
+}

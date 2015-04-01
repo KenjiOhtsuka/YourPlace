@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="android_blue_dark">#0099cc</color>
+    <color name="android_blue_light">#33b5e5</color>
+    <color name="android_blue_level_1">#E2F4FB</color>
+    <color name="android_blue_level_2">#c5eaf8</color>
+    <color name="android_blue_level_3">#a8dff4</color>
+    <color name="android_blue_level_4">#8ad5f0</color>
+    <color name="android_blue_level_5">#6dcaec</color>
+    <color name="android_blue_level_6">#50c0e9</color>
+    <color name="android_blue_level_7">#33b5e5</color>
+    <color name="android_blue_level_8">#2cb1e1</color>
+    <color name="android_blue_level_9">#24adde</color>
+    <color name="android_blue_level_10">#1da9da</color>
+    <color name="android_blue_level_11">#0099cc</color>
+</resources>

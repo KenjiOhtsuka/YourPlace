@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DialogTitle -->
+    <string name="error">Error</string>
+    <string name="sorry">Sorry</string>
+    <string name="accessing">Accessing</string>
+    <string name="please_wait">Please Wait</string>
+</resources>

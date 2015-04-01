@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+    <PreferenceCategory android:title="@string/wear">
+        <CheckBoxPreference android:key="send_to_wear_on_decision"
+                            android:defaultValue="true"
+                            android:summary="@string/send_to_wear_on_decision_summary"
+                            android:title="@string/send_to_wear_on_decision" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/contact">
+        <Preference android:key="report_bugs_and_requests"
+                    android:summary="@string/report_bugs_and_requests_summary"
+                    android:title="@string/report_bugs_and_requests"/>
+        <CheckBoxPreference android:key="report_bugs_automatically"
+                            android:defaultValue="true"
+                            android:summary="@string/report_bugs_automatically_summary"
+                            android:title="@string/report_bugs_automatically" />
+    </PreferenceCategory>
+</PreferenceScreen>

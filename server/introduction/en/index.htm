@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Let's Go! Manual</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="A manual of an App &quot;Let's Go!&quot;, which supports Android Wear. Its app decide destination from Tokyo Metro stations for you. When you want to go somewhere you've not been to, its app will helps you very much." />
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="../asset/css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="../asset/css/layouts/side-menu.css">
+    <!--<![endif]-->
+	<link rel="stylesheet" type="text/css" href="../asset/normal.css" />
+</head>
+<body>
+	<div id="layout">
+		<a href="#menu" id="menuLink" class="menu-link">
+	        <span></span>
+	    </a>
+
+	    <div id="menu">
+	        <div class="pure-menu pure-menu-open">
+	            <a>Index</a>
+	            <ul>
+	                <li><a href="#overview">Introduction</a></li>
+	                <li><a href="#how_to_use">How to Use</a></li>
+	                <li><a href="#setting">Setting</a></li>
+	                <li><a href="#disclaimer">Disclaimer</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	    <div id="main">
+	    	<div class="header">
+				<h1>Let's Go! Manual</h1>
+				<h2>Let's go on Tokyo Metro Subway!</h2>
+			</div>
+			<div class="content">
+				<section>
+					<a name="overview"></a>
+					<h2 class="content-subhead">Introduction</h2>
+					<p>"<a href="https://play.google.com/store/apps/details?id=com.improve_future.yourplace" target="_blank">Let's Go!</a>" is an Android Application to decide your destination from Tokyo Metro subway stations.</p>
+					<p>If you want to go somewhere but you can't decide destination, this app helps you. With this app, you can find new aspect of Tokyo Metro stations.</p>
+				</section>
+				<section>
+					<a name="how_to_use"></a>
+					<h2 class="content-subhead">How to Use</h2>
+					<section>
+						<h3>Select your Enjoying Way and Departure Station</h3>
+						<p>At first, select your enjoying way and departure station.</p>
+						<p><img class="pure-img" src="image/decide_destination.png" /></p>
+						<section>
+							<h4>Select How to Enjoy</h4>
+							<p>"Only God Knows" is selected as default. Tap and select your enjoying way, from the following items.</p>
+							<ul>
+								<li>Only God Knows / God Only Knows</li>
+								<li>Quickly</li>
+								<li>Leisurely</li>
+								<li>In Adventure Way</li>
+							</ul>
+						</section>
+						<section>
+							<h4>Select Departure Station</h4>
+							<p>Select the line of your departure station, and the station. After selection of the line, you can choose the station.</p>
+						</section>
+					</section>
+					<section>
+						<h3>Decide Destination</h3>
+						<p>After choosing your departure station, tap the button "Decide Destination". Destination will be decided to meet your enjoying way and your departure station.</p>
+						<p><img class="pure-img" src="image/destination_detail.png" /></p>
+						<p>After the decision, information of the destination will appear. If no station meets your enjoying way and your departure station, please change enjoying way and try again.</p>
+						<p>When the destination was decided, the information of the destination will be sent to your wear, if you paired your phone and wear and "Auto Notification" on setting page is checked.</p>
+					</section>
+					<section>
+						<h3>See the destination information</h3>
+						<p>When the destination decided, the destination line and station name and mark and peripheral information list will be appear. If you tap the peripheral information, you can see the map of it.</p>
+						<p>And on the map, you can check the route to the facility and train exchange information.</p>
+						<section>
+							<h4>See the information on Wear</h4>
+							<p>When the information was sent to your wear, you can see the Notification on wear. Slide it left and tap the button "Check Detail", you can see the line and station name and the mark, which you saw on the phone. When you slide it up, then you can see the peripheral information and when you slide it left, you can see the button to open the map on phone. When you tap it, you can see the map on phone.</p>
+							<p><img class="pure-img" src="image/wear_notification.png" style="width:50%;display:inline;" /><img class="pure-img" src="image/wear_facility.png" style="width:50%;display:inline;" /></p>
+						</section>
+					</section>
+				</section>
+				<section>
+					<a name="setting"></a>
+					<h2 class="content-subhead">Setting</h2>
+					<p>On Setting page, you can change settings on the following table.</p>
+					<table>
+						<thead>
+							<tr style="background-color:#e0e0e0;">
+								<th><nobr>Item</nobr></th>
+								<th><nobr>Type</nobr></th>
+								<th><nobr>Description</nobr></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th colspan="3">Wear Interaction</th>
+							</tr>
+							<tr>
+								<th>Auto Notification</th>
+								<td>Checkbox</td>
+								<td>Send a notification about a decided destination to your Android Wear automatically
+			        when you decide it.</td>
+							</tr>
+							<tr>
+								<th colspan="3">Contact</th>
+							</tr>
+							<tr>
+								<th>Report Bugs and Request</th>
+								<td>Button</td>
+								<td>Send Mail for reporting Bugs and Requests to the developer.</td>
+							</tr>
+							<tr>
+								<th>Report Bugs Automatically</th>
+								<td>Checkbox</td>
+								<td>Report bugs automatically when you open this App if an error occurred in previous session. Before reporting, open confirming dialog.</td>
+							</tr>
+						</tbody>
+					</table>
+					<p><img class="pure-img" src="image/setting.png" /></p>
+				</section>
+				<section>
+					<a name="disclaimer"></a>
+					<h2 class="content-subhead">Disclaimer</h2>
+					<ul>
+						<li>"<span lang="ja">東京メトロ</span>" is a trademark or a registered trademark of Tokyo Metro Co., Ltd.</li>
+						<li>"Android" is a trademark or a registered trademark of Google Inc.</li>
+						<li>This page was based on the information on Nov 15, 2014. The application "Let's Go!" may be changed without notice.</li>
+						<li>I don't add function or fix something before checking the application by Tokyo Metro Co., Ltd.</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../asset/js/ui.js"></script>
+</body>
+</html>

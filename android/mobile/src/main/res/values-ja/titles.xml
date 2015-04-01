@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DialogTitle -->
+    <string name="error">エラー</string>
+    <string name="sorry">残念な結果</string>
+    <string name="accessing">通信中</string>
+    <string name="please_wait">ちょっと待って！！</string>
+</resources>

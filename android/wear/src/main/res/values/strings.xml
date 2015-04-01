@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Let\'s Go!</string>
+    <string name="notification_title">Let\'s Go!</string>
+    <string name="to_the_destination">To %s</string>
+    <string name="peripheral">Peripheral</string>
+    <string name="check_detail">Check Detail</string>
+    <string name="open_the_map">Open the Map</string>
+    <string name="map_opened">Please, Check Your Phone</string>
+    <string name="please_send_data">Please Send Data\nFrom Your Mobile</string>
+</resources>

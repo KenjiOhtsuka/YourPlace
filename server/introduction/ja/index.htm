@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>いこうよ！ マニュアル</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Android Wear 対応 のアプリ「いこうよ！」のマニュアル。 東京メトロの駅の中から行き先の駅を決定してくれます。 普段行かないところへ行ってみたいときに是非どうぞ。" />
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="../asset/css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="../asset/css/layouts/side-menu.css">
+    <!--<![endif]-->
+	<link rel="stylesheet" type="text/css" href="../asset/normal.css" />
+</head>
+<body>
+	<div id="layout">
+		<a href="#menu" id="menuLink" class="menu-link">
+	        <span></span>
+	    </a>
+
+	    <div id="menu">
+	        <div class="pure-menu pure-menu-open">
+	            <a>目次</a>
+	            <ul>
+	                <li><a href="#overview">アプリの概要</a></li>
+	                <li><a href="#how_to_use">使い方</a></li>
+	                <li><a href="#setting">設定画面</a></li>
+	                <li><a href="#disclaimer">免責事項</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	    <div id="main">
+	    	<div class="header">
+				<h1>いこうよ！ マニュアル</h1>
+				<h2>東京メトロに乗って どこか知らない街へいこうよ！</h2>
+			</div>
+			<div class="content">
+				<section>
+					<a name="overview"></a>
+					<h2 class="content-subhead">アプリの概要</h2>
+					<p>「<a href="https://play.google.com/store/apps/details?id=com.improve_future.yourplace" target="_blank">いこうよ！</a>」は東京メトロの駅の中から行き先を決定する Android アプリ です。</p>
+					<p>どこか行きたい、でも行き先が決まっていない、そんなときに使えるアプリです。 おすすめされた行き先に行って新しい体験をするのもいいと思いませんか？</p>
+				</section>
+				<section>
+					<a name="how_to_use"></a>
+					<h2 class="content-subhead">使い方</h2>
+					<section>
+						<h3>楽しみ方・出発駅を選ぶ</h3>
+						<p>最初に楽しみ方と出発駅を選びます。 </p>
+						<p><img class="pure-img" src="image/decide_destination.png" /></p>
+						<section>
+							<h4>楽しみ方を選ぶ</h4>
+							<p>アプリを開いた時点では「おまかせ」が選択されています。 タップして、次の選択肢の中から楽しみ方を選びます。</p>
+							<ul>
+								<li>おまかせ</li>
+								<li>さっと楽しむ</li>
+								<li>ゆったり楽しむ</li>
+								<li>冒険する</li>
+							</ul>
+						</section>
+						<section>
+							<h4>出発駅を選ぶ</h4>
+							<p>出発駅を選びます。まずは使用する路線名を選んでください。路線名を選ぶと駅名を選択できるようになります。</p>
+						</section>
+					</section>
+					<section>
+						<h3>行き先を決める</h3>
+						<p>駅名まで選択したら、「行き先を決める！」ボタンをタップしてください。楽しみ方と出発駅にあわせて行き先が決まります。</p>
+						<p><img class="pure-img" src="image/destination_detail.png" /></p>
+						<p>行き先が決まると行先の情報が表示されます。条件にあう行き先が見つからなかった場合はその旨表示されますので、条件をかえて再度ボタンをタップしてください。</p>
+						<p>行き先が決まった際に、 Android Wear とペアリングが行われており、且つ自動通知設定がオンになっている場合には、 Android Wear へ行き先の情報が送信されます。</p>
+					</section>
+					<section>
+						<h3>行き先の情報を見る</h3>
+						<p>行き先が決まると、行き先の駅名とその周辺スポットが一覧表示されます。周辺スポットをタップすると、タップした周辺スポットのマップが表示されます。</p>
+						<p>表示された Map 上 で右下の経路情報マークをタップしていただくことで、乗り換えを含めた経路情報をご覧いただくことができます。</p>
+						<section>
+							<h4>Android Wear で行き先の情報を見る</h4>
+							<p>Android Wear へ情報が送信されると、 Wear 上 で Notification が表示されます。 左へスライドして「詳細を見る」ボタンをタップすると駅情報が表示されます。詳細情報では、スマートフォン上で表示される駅の情報を見ることができ、上へスライドすることで各周辺スポットを見ることもできます。周辺スポットを右へスライドすると「地図を見る」ボタンが表示されます。「地図を見る」ボタンをタップすると、ペアリングされたスマートフォン上で Map を見ることができます。</p>
+							<p><img class="pure-img" src="image/wear_notification.png" style="width:50%;display:inline;" /><img class="pure-img" src="image/wear_facility.png" style="width:50%;display:inline;" /></p>
+						</section>
+					</section>
+				</section>
+				<section>
+					<a name="setting"></a>
+					<h2 class="content-subhead">設定画面</h2>
+					<p>設定画面では下表の設定を変更することができます。</p>
+					<table>
+						<thead>
+							<tr style="background-color:#e0e0e0;">
+								<th><nobr>設定項目</nobr></th>
+								<th><nobr>形式</nobr></th>
+								<th><nobr>説明</nobr></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th colspan="3">Wear との連携</th>
+							</tr>
+							<tr>
+								<th>自動送信</th>
+								<td>チェックボックス</td>
+								<td>行き先を決めた時に、お使いの Android Wear に通知を送ります。</td>
+							</tr>
+							<tr>
+								<th colspan="3">作者に連絡</th>
+							</tr>
+							<tr>
+								<th>バグ・要望報告</th>
+								<td>ボタン</td>
+								<td>タップすることでバグ・要望報告用のメールが起動します。内容を記述の上送信してください。</td>
+							</tr>
+							<tr>
+								<th>バグの自動送信</th>
+								<td>チェックボックス</td>
+								<td>バグが発生した場合、次回起動時にバグを送信します。バグ送信時には確認ダイアログを表示します。</td>
+							</tr>
+						</tbody>
+					</table>
+					<p><img class="pure-img" src="image/setting.png" /></p>
+				</section>
+				<section>
+					<a name="disclaimer"></a>
+					<h2 class="content-subhead">免責事項</h2>
+					<ul>
+						<li>東京メトロ は 東京地下鉄株式会社 の商標または登録商標です。</li>
+						<li>Android は Google Inc. の商標または登録商標です。</li>
+						<li>当ページの内容は 2014年11月17日 のものです。 アプリの内容は予告なく変更することがあります。</li>
+						<li>東京地下鉄株式会社によるアプリの審査が終了するまでは機能追加等はいたしません。</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../asset/js/ui.js"></script>
+</body>
+</html>

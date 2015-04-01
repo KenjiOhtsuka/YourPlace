@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">いこうよ！</string>
+    <string name="action_settings">設定</string>
+    <string name="destination">目的地</string>
+    <string name="requirement">予算・時間</string>
+    <string name="feeling">気分</string>
+    <!-- DecideDestinationFragment -->
+    <string name="where">どこいく？</string>
+    <string name="how_to_enjoy">楽しみ方</string>
+    <string name="decide_destination">行き先を決める！</string>
+    <string name="departure_station">出発駅</string>
+    <string name="round_trip_budget">往復予算</string>
+    <string name="start_message">東京メトロに乗って\nどこか知らない街へ\nいこうよ！</string>
+    <!-- DestinationDetailFragment -->
+    <string name="there">ここ！</string>
+    <string name="pre_destination_sentence">今日の行き先は</string>
+    <string name="post_destination_sentence">です。</string>
+    <string name="decide_introduction">左の「どこいく？」タブで\n行き先を決めよう！</string>
+    <string name="peripheral_information">周辺スポット</string>
+    <!-- SettingsActivity -->
+    <string name="setting">設定</string>
+    <string name="manual">マニュアル</string>
+    <string name="manual_url">http://yourplace.improve-future.com/introduction/ja/index.htm</string>
+    <!-- SettingsFragment -->
+    <string name="wear">Wearとの連携</string>
+    <string name="send_to_wear_on_decision">自動通知</string>
+    <string name="send_to_wear_on_decision_summary">
+        行き先を決めた時に、お使いの Android Wear に通知を送ります。
+    </string>
+    <string name="contact">作者に連絡</string>
+    <string name="report_bugs_and_requests">バグ報告・要望</string>
+    <string name="report_bugs_and_requests_summary">
+        アプリの作者にメールを送ってバグや要望を伝えます。
+    </string>
+    <string name="report_bugs_automatically">バグの自動送信</string>
+    <string name="report_bugs_automatically_summary">
+        バグが発生した場合、次回起動時にバグを送信します。
+        バグ送信時には確認ダイアログを表示します。
+    </string>
+</resources>

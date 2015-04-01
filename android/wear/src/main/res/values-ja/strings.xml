@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">いこうよ！</string>
+    <string name="notification_title">いこうよ！</string>
+    <string name="to_the_destination">%s へ</string>
+    <string name="peripheral">周辺スポット</string>
+    <string name="check_detail">もっと見る</string>
+    <string name="open_the_map">地図を開く</string>
+    <string name="map_opened">地図データを送信しました。</string>
+    <string name="please_send_data">お使いの端末から\nデータを送信してください</string>
+</resources>

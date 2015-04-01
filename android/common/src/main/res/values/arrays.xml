@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="line_names">
+        <item></item>
+        <item>Ginza Line</item>
+        <item>Marunouchi Line</item>
+        <item>Hibiya Line</item>
+        <item>Tozai Line</item>
+        <item>Chiyoda Line</item>
+        <item>Yurakucho Line</item>
+        <item>Hanzomon Line</item>
+        <item>Namboku Line</item>
+        <item>Fukutoshin Line</item>
+    </string-array>
+    <string-array name="line_codes">
+        <item></item>
+        <item>odpt.Railway:TokyoMetro.Ginza</item>
+        <item>odpt.Railway:TokyoMetro.Marunouchi</item>
+        <item>odpt.Railway:TokyoMetro.Hibiya</item>
+        <item>odpt.Railway:TokyoMetro.Tozai</item>
+        <item>odpt.Railway:TokyoMetro.Chiyoda</item>
+        <item>odpt.Railway:TokyoMetro.Yurakucho</item>
+        <item>odpt.Railway:TokyoMetro.Hanzomon</item>
+        <item>odpt.Railway:TokyoMetro.Namboku</item>
+        <item>odpt.Railway:TokyoMetro.Fukutoshin</item>
+    </string-array>
+    <integer-array name="line_colors">
+        <item>0</item>
+        <item>0xffff9500</item> <!-- Ginza -->
+        <item>0xfff62e36</item> <!-- Marunouchi -->
+        <item>0xffb5b5ac</item> <!-- Hibiya -->
+        <item>0xff009bbf</item> <!-- Tozai -->
+        <item>0xff00bb85</item> <!-- Chiyoda -->
+        <item>0xffc1a470</item> <!-- Yurakucho -->
+        <item>0xff8f76d6</item> <!-- Hanzomon -->
+        <item>0xff00ac9b</item> <!-- Namboku -->
+        <item>0xff9c5e31</item> <!-- Fukutoshin -->
+    </integer-array>
+</resources>

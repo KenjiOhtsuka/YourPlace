@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DialogMessage -->
+    <string name="error_try_again">エラーが発生しました。\nもう一度やり直してください。</string>
+    <string name="dest_not_found">ご希望に合う目的地は見つかりませんでした。</string>
+    <string name="just_a_moment">しばらくお待ちください。</string>
+    <string name="select_dept">出発駅を選択してください。</string>
+</resources>

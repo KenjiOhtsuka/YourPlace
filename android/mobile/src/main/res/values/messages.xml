@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DialogMessage -->
+    <string name="error_try_again">An error was occurred. Please try again.</string>
+    <string name="dest_not_found">
+        We can\'t find the best destination.
+        Please try again with another requirements.
+    </string>
+    <string name="just_a_moment">Just a moment ...</string>
+    <string name="select_dept">Select your departure station.</string>
+</resources>

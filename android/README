@@ -1,0 +1,15 @@
+## Contribute Flow
+1. create a feature branch.
+1. having created, commit and push to the feature branch.
+1. create pull request to merge the feature branch into develop branch.
+
+## Term
+* Railway
+    * CodeName: ex. "odpt.Railway:TokyoMetro.Marunouchi"
+* Station
+    * Code: ex. "H20"
+    * Code Name: ex. "odpt.Station:TokyoMetro.Tozai.Nakano"
+    * Name: ex. "綾瀬", "日比谷", "大手町"
+* General
+    * destination: 目的地
+    * feeling: 気分

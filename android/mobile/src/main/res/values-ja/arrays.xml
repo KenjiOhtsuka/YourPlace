@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="line_names">
+        <item></item>
+        <item>銀座線</item>
+        <item>丸ノ内線</item>
+        <item>日比谷線</item>
+        <item>東西線</item>
+        <item>千代田線</item>
+        <item>有楽町線</item>
+        <item>半蔵門線</item>
+        <item>南北線</item>
+        <item>副都心線</item>
+    </string-array>
+    <string-array name="round_trip_budget_names">
+        <item>340円</item>
+        <item>400円</item>
+        <item>480円</item>
+        <item>560円</item>
+        <item>620円</item>
+    </string-array>
+    <string-array name="enjoying_ways">
+        <item>おまかせ</item>
+        <item>さっと楽しむ</item>
+        <item>ゆったり楽しむ</item>
+        <item>冒険する</item>
+    </string-array>
+</resources>
